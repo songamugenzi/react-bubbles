@@ -76,11 +76,11 @@ form {
   label {
     display: flex;
     justify-content: space-between;
-    padding: 4px 36px 4px 40px;
+    padding: 10px 0px 4px 0px;
   }
 
   input {
-    width: 100px;
+    width: 140px;
   }
 }
 
@@ -96,4 +96,22 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.logout-btn {
+  background-color: #e9967a;
+  font-size: 21px;
+  color: white;
+}
+
+.login-btn {
+  background-color: #e9967a;
+  font-size: 21px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+h1 {
+  color: chocolate;
 }

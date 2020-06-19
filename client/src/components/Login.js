@@ -32,7 +32,7 @@ const Login = () => {
           username: "",
           password: "",
         });
-        console.log("Username or password incorrect", err);
+        console.log("Enter valid username and password", err);
       });
   };
 
@@ -59,7 +59,9 @@ const Login = () => {
             onChange={handleChanges}
           />
         </label>
-        <button type="submit">Login</button>
+        <button type="submit" className="login-btn">
+          Login
+        </button>
       </form>
     </>
   );

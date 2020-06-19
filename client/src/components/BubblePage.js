@@ -26,6 +26,7 @@ const BubblePage = (props) => {
       <ColorList colors={colorList} updateColors={setColorList} />
       <Bubbles colors={colorList} />
       <button
+        className="logout-btn"
         onClick={() => {
           history.push("/");
         }}
